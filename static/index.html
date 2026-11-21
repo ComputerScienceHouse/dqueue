@@ -77,10 +77,10 @@
     <div class="container-lg justify-content-start">
       <img class="object-fit-contain ms-2 me-2" height="32"
         src="https://assets.csh.rit.edu/pubsite/csh_logo_square.svg">
-      <a class="navbar-brand fs-4" href="/">Dairy Queen 🍦</a>
+      <a class="navbar-brand fs-4 text-white" href="/">Dairy Queen 🍦</a>
       <div class="nav navbar-nav ms-auto">
         <div class="dropdown">
-          <a class="d-flex align-items-center link-body-emphasis text-decoration-none dropdown-toggle" href="#"
+          <a class="d-flex align-items-center text-decoration-none dropdown-toggle text-light text-opacity-50" href="#"
             data-bs-toggle="dropdown" aria-expanded="false">
             <span class="text-light me-2" id="profile-name"></span>
             <img id="profile-pic" class="rounded-circle" width="30px" height="30px" />
@@ -107,10 +107,10 @@
         </nav>
         <div class="border-top my-1 pb-2"></div>
         <div class="d-flex flex-row align-items-center">
-          <h2 class="m-0 fs-3 p-1">
-            <input class="discussion-title" value="AGH" onchange="changeTopic(event)" />
+          <h2 class="m-0 fs-3 p-1 flex-grow-1">
+            <input class="discussion-title w-100" value="AGH" onchange="changeTopic(event)" />
           </h2>
-          <div class="ms-auto d-flex flex-row align-items-center">
+          <div class="d-flex flex-row align-items-center">
             <a href="#" class="ms-2" id="remove-queue" onclick="closeActiveQueue()">
               <i class="bi bi-x text-danger fs-3"></i>
             </a>
